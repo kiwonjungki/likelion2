@@ -1,0 +1,23 @@
+.container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box:nth-child(1) {
+  background-color: pink;
+}
+
+.box:nth-child(2) {
+  background-color: olivedrab;
+}
+
+.box:nth-child(3) {
+  background-color: rgb(76, 26, 34);
+}
